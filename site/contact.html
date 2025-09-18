@@ -9,33 +9,41 @@
 <body>
 
      <form action="post" id="form"><!--formulaire de contact-->
-      <h2>Formulaire de contact</h2><!--intégration écriture google-->
+     <fieldset><legend>Formulaire de contact</legend> <h2></h2><!--fielset= encadrement et legend = titre au milieux de l'encadrement-->
 <br>
 <br>  
     <input type="text" name="nom" placeholder="Entrez votre nom">  <!--placeholder : texte d’exemple affiché quand le champ est vide.--> <!--name= permet de relier a une class-->
+<br> 
+<br> 
+<br>    
     <input type="text" name="prenom" placeholder="Entrez votre prenom">  <!--placeholder : texte d’exemple affiché quand le champ est vide.--> <!--name= permet de relier a une class-->
- <br>
+ <br> 
+<br> 
+<br>    
     <input type="email" name="email" id="email" step="1" required> <label for="email">Email </label> <!--email-->
 <br>
+<br> 
+<br> 
               <!--checkbox = plussieur choix possible--> <!--value= valeur -->
+<br><fieldset><legend>Choix</legend>
+                      <input id="Javascript" type="radio"><label for="Javascript">Javascript</label>  <!---->
 <br>
-                      <input id="Javascript" type="radio"> Javascript  
+                        <input id="PHP" type="radio"><label for="PHP">PHP</label>  
 <br>
-                        <input id="PHP" type="radio">PHP
+                        <input id="c#" type="radio"><label for="c#">c#</label>  
 <br>
-                        <input id="c#" type="radio">c#
+                        <input id="RUBY" type="radio"><label for="RUBY">RUBY</label>  
 <br>
-                        <input id="RUBY" type="radio">RUBY
+                        <input id="REACT" type="radio">REACT<label for="REACT">REACT</label> 
 <br>
-                        <input id="REACT" type="radio">REACT
-<br>
-                        <input id="NODEJS" type="radio">NODEJS
+                        <input id="NODEJS" type="radio">NODEJS<label for="NODEJS">NODEJS</label> 
 <br>
           <select><!--select=permet de rajouter une liste qui défile-->
             <option value="homme"> homme </option> <!--option=permet de rajouter des choix dans la liste (ne pas oublier de ne pas les laisser vide)-->
                 <option value="femme">femme</option>
                          <option value="femme">je ne suis pas encore certain</option>
             </select> 
+    </fieldset>
 <br>
 <textarea id="texte" name="texte" rows="6" cols="50" placeholder="message ici..."></textarea><!--consigne 200 mots-->
 <br>
