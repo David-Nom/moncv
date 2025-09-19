@@ -1,0 +1,110 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffe082;
+}
+
+/* Titre principal */
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Section menu */
+section {
+    padding: 20px;
+    background-color: #ffe082;
+    text-align: center;
+}
+
+/* Images du menu */
+.menu-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.menu-nav img {
+    width: 20%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-nav img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Formulaire */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fffde7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+legend {
+    font-weight: bold;
+}
+/*Formulaire*/
+input[type="text"],
+input[type="email"],
+select {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ffca28;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffc107;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffe082;
+    margin-top: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333;
+    font-weight: bold;
+}

@@ -1,33 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./Image exercice/eats.png"><!--Icone-->
+    <link rel="stylesheet" href="./Exercice1.css"><!--Chemin direction-->
     <title>Eats</title>
 </head>
 <body>
-    <p>Eats</p>
+    <h1>Eats</h1>
+    <img src="./Image exercice/eats.png" width="20%" alt="Image Eco eats1">
+    </header>
+    <section>
+        <h1>Menu:</h1>
 
-<head>
-    <img src="./" width="20%" alt="Image Eco eats">
-</head>
-<section>
-    <h1>Menu:</h1>
-        <nav><!--Menu--> 
-    
-            <img src="./" width="20%" alt="Image Eco eats">
-            <img src="./" width="20%" alt="Image Eco eats">
-            <img src="./" width="20%" alt="Image Eco eats">
+        <nav class="menu-nav"><!--Menu-->
+            <img src="./Image exercice/eats.png" width="20%" alt="Image Eco eats2" title="Hamburgeur">
+            <img src="./Image exercice/eats.png" width="20%" alt="Image Eco eats3" title="Croque-m">
+            <img src="./Image exercice/eats.png" width="20%" alt="Image Eco eats4" title="Croque-N">
         </nav>
-    <p> Clicker sur Commande pour les Commandes Eats</p>
-</section>
-<main> 
-<h2>Formulaire de contact:</h2>
+        <p> Clicker sur Commande pour les Commandes Eats</p>
+    </section>
+    <main>
+        <h2>Formulaire de contact:</h2>
+        <form action="post" id="form"><!--formulaire de contact-->
+            <fieldset>
+                <legend>Remplisez les informations</legend>
+                <!--fielset= encadrement et legend = titre au milieux de l'encadrement-->
+                <br>
+                <br>
+                <input type="text" name="nom" placeholder="Entrez votre nom">
+                <!--placeholder : texte d’exemple affiché quand le champ est vide.-->
+                <!--name= permet de relier a une class-->
+                <br>
+                <br>
+                <br>
+                <input type="text" name="prenom" placeholder="Entrez votre prenom">
+                <!--placeholder : texte d’exemple affiché quand le champ est vide.-->
+                <!--name= permet de relier a une class-->
+                <br>
+                <br>
+                <br>
+                <input type="email" name="email" id="email" placeholder="Email"> <!--email-->
+                <br>
+                <br>
+                <br>
+                <!--checkbox = plussieur choix possible--> <!--value= valeur -->
+                <br>
+                <fieldset>
+                    <legend>Choix</legend>
+                    <input id="Hamburgeur" type="radio"><label for="Hamburgeur">Hamburgeur</label> <!---->
+                    <br>
+                    <input id="Croque-m" type="radio"><label for="Croque-m">Croque-m</label>
+                    <br>
+                    <input id="Croque-N" type="radio"><label for="Croque-N">Croque-N</label>
+                    <br>
 
-</main>
-<footer>
-<a href=""><p>X</p></a>,
-<a href=""><p>Yt</p></a>
-</footer>
-    </body>
+                    <br>
+                    <select><!--select=permet de rajouter une liste qui défile-->
+                        <option value="homme"> Enfant </option>
+                        <!--option=permet de rajouter des choix dans la liste (ne pas oublier de ne pas les laisser vide)-->
+                        <option value="femme">Adulte</option>
+                        <option value="Piter-pan">je ne suis pas encore certain</option>
+                          <input type="submit"/><!--Bouton envoyer-->
+<br>
+<br>
+    </form>
+    </main>
+    <footer>
+        <a href="">X</a>
+        <a href="">Yt</a>
+    </footer>
+</body>
 </html>
