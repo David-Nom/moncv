@@ -4,18 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./Image exercice/eats.png"><!--Icone-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./Exercice1.css"><!--Chemin direction-->
     <title>Eats</title>
+   
 </head>
 <body>
-    <header>
-    <h1>Eats</h1>
+    <header class="text-center"><!--Boostrap-->
+    <h1 class="fw-bold">Eats</h1>
     <img src="./Image exercice/eats.png" alt="ImageEcoeats1">
     </header>
     <section>
         <h2>Menu:</h2>
-
-        <nav class="menu-nav"><!--Menu-->
+</section>
+  <div class="container"><!--Boostrap-->
+  <div class="row">
+    <div class="col bg-danger text-white">Hamburgeur</div>
+    <div class="col bg-secondary text-white">Croque-m</div>
+    <div class="col bg-dark text-white">Croque-N</div>
+  </div>
+</div>
+        <nav class="menu-nav text-center"><!--Menu-->
             <img src="./Image exercice/eats.png" alt="ImageEcoeats2" title="Hamburgeur">
             <img src="./Image exercice/eats.png" alt="ImageEcoeats3" title="Croque-m">
             <img src="./Image exercice/eats.png" alt="ImageEcoeats4" title="Croque-N">
@@ -24,9 +33,9 @@
     </section>
     <main>
         <h3>Formulaire de contact:</h3>
-        <form action="post" id="form"><!--formulaire de contact-->
+        <form action="post" id="form" class="m-3 text-center"><!--formulaire de contact-->
             <fieldset>
-                <legend>Remplisez les informations</legend>
+                <legend class="text-primary text-center">Remplisez les informations</legend>
                 <!--fielset= encadrement et legend = titre au milieux de l'encadrement-->
                 <br>
                 <br>
@@ -57,14 +66,14 @@
                     <br>
                     <input id="Croque-N" type="radio"><label for="Croque-N">Croque-N</label>
                     <br>
-<select><!--select=permet de rajouter une liste qui défile-->
+<select class="text-center"><!--select=permet de rajouter une liste qui défile-->
                 <option value="homme"> Enfant </option><!--option=permet de rajouter des choix dans la liste (ne pas oublier de ne pas les laisser vide)-->
-                <option value="femme">Adulte</option>
+                <option value="femme">Adulte</option><!---->
                 <option value="Piter-pan">je ne suis pas encore certain</option>
                    
                    
 </select>
- <input type="submit"/><!--Bouton envoyer-->
+ <input type="submit" class="btn btn-success text-center"/><!--Bouton envoyer-->
                     <br>
 
 <br>
@@ -76,5 +85,6 @@
         <a href="">X</a>
         <a href="">Yt</a>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
