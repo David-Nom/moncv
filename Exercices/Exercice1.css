@@ -37,6 +37,7 @@ section {
 }
 
 .menu-nav img {
+    margin:10%;
     width: 20%;
     max-width: 150px;
     height: auto;
@@ -51,7 +52,7 @@ section {
 
 /* Formulaire */
 form {
-    max-width: 600px;
+   width: 100%;
     margin: 0 auto;
     background-color: #fffde7;
     padding: 20px;
@@ -63,6 +64,7 @@ fieldset {
     border: 1px solid #ccc;
     padding: 15px;
     border-radius: 8px;
+        margin:5%;
 }
 
 legend {
@@ -107,4 +109,7 @@ footer a {
     margin: 0 10px;
     color: #333;
     font-weight: bold;
+}
+main {
+    text-align: center;
 }
