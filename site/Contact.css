@@ -1,0 +1,85 @@
+/* Style global */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Conteneur du formulaire */
+form {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+  width: 400px;
+}
+
+/* Encadré (fieldset) */
+fieldset {
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3498db;
+  padding: 0 8px;
+}
+
+/* Inputs et textarea */
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 16px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+/* Effet focus */
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.6);
+}
+
+/* Bouton */
+input[type="submit"] {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background: #2980b9;
+}
+
+/* Radio & labels */
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+label {
+  margin-right: 15px;
+  cursor: pointer;
+}
