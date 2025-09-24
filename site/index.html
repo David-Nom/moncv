@@ -1,53 +1,83 @@
 <!DOCTYPE html>
 <html>
-<head>    
-    <meta charset="UTF-8"/>
+<head> 
+    <html lang="fr"></html>   
+    <meta charset="UTF-8"/><!--HTML5-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="./images/Icon B.png"><!--Icone-->
+    <link rel="icon" type="image/png" href=""><!--Icone-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"><!--icon Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"><!--Bootstrap-->
     <link rel="stylesheet" href="./style.css"><!--Chemin direction-->
-<title>Mon CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--Police Google-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee+Tint&family=Honk&display=swap" rel="stylesheet">
+<title>CV Développeur Full Stack</title>
 </head>
-    <body>
-<img src="./images/Icon B.png" width="50%" class="A" alt="Icon"><h1>CV David R</h1>
+<body>
+  <div class="container">
+    <header>
+      <h1>David R</h1>
+      <p class="archivo-black-regular">Développeur Full Stack <i class="bi bi-code-slash"></i></p>
+      <p> Béziers, France | <i class="bi bi-envelope-at"></i> david@gmail.com  | <i class="bi bi-telephone"></i> 06 </p>
+      <p> <a href="#"><i class="bi bi-building-fill"></i><a href="#">France Travail</a> | <i class="bi bi-github"></i><a href="#">GitHub</a></p>
+    </header>
 
-<br>
-<ul>
-    <li>à Béziers le 10/09/2025</li>
-    <li>Num:</li>
-    <li>Mail:</li>
-    <li>Adresse:</li>
-</ul>
-<br>
-        </header>
-        <main><!--Début de main-->
-  <h1>Objet: Candidature au poste de Développeur Full Stack</h1>
-<br>
-    <p>Madame,Monsieur, <br></p>
+    <section>
+      <h2>Profil</h2>
+      <p>Développeur Full Stack passionné par la création d’applications web performantes et intuitives. Expérience en développement front-end (HTML, CSS, JavaScript) et back-end (Node.js, PHP, MySQL).</p>
+    </section>
 
-<br>
-<br>
-<h2>Compétences:</h2>
-<br>
-<h3>HTML/CSS/JAVA-SCRIPT/PHP/SQL</h3>
-    </main>
-    <p class="Description">Développeur Full Stack passionnée,<br><br>
-        je mets mes compétences en conception,développement et<br>
-déploiment d'applications web et sites web au service de projets ambitieux et innovants.<br>
- Avec une solide expérience.. </p>
-    <footer><!--Début footer-->
-     <p>Diplome: </p>
-        <p>Maitrise langage: HTML/CSS/JAVA-SCRIPT/PHP/SQL</p>
-<br>
-        <p>Maitrise Autre: MYSQL</p>
-<br>
-         <p>Motivation: </p>
-<br>
-          <h3>Stage: 2026</h3>
-    <p>Loisir: développement web,  </p><img src="./images/Icon A.png" width="100em" alt="Icon2">
-<br>
+    <section>
+      <h2 class="text-center">Compétences</h2><!--Bootstrap-->
+      <div class="skills text-center"><!--Bootstrap-->
+        <span>HTML5 <i class="bi bi-filetype-html"></i></span>
+        <span>CSS3 <i class="bi bi-filetype-css"></i></span>
+        <span>JavaScript <i class="bi bi-filetype-js"></i></span>
+        <span>React</span>
+        <span>Node.js</span>
+        <span>PHP <i class="bi bi-filetype-php"></i></span>
+        <span>MySQL <i class="bi bi-filetype-sql"></i></span>
+        <span>Git/GitHub <i class="bi bi-github"></i></span>
+        <span>Boostrap <i class="bi bi-bootstrap"></i></i></span>
+      </div>
+    </section>
 
-<a href="./contact.html"><button title="Contact">Contact</button></a><!--redirection-->
+    <section>
+      <h2>Expériences Professionnelles</h2>
+      <ul>
+        <li><b>Développeur Full Stack</b> – Entreprise X (2025 - Présent)<br>
+          Développement d’interfaces responsives et API REST.
+        </li>
+        <li><b>Développeur Web</b> – Startup Y (2025 - 2025)<br>
+          Réalisation de sites vitrines et e-commerce.
+        </li>
+      </ul>
+    </section>
 
+    <section>
+      <h2>Formation</h2>
+      <ul>
+        <li>Tosa (2017)</li>
+        <li><i class="bi bi-arrow-return-right"></i>Certification CodeAcademy – Développeur Web (2024)</li>
+         <li><i class="bi bi-arrow-return-right"></i>Certification OpenClassrooms – Développeur Web (2024)</li>
+          <li><i class="bi bi-arrow-return-right"></i>Certification OpenClassrooms – Développeur Web (2025)</li>
+           <li><i class="bi bi-arrow-return-right"></i>Certification OpenClassrooms – Développeur Web (2025)</li>
+            <li><i class="bi bi-arrow-return-right"></i>Certification OpenClassrooms – Développeur Web (2025)</li>
+            <li></li><i class="bi bi-dash-lg"></i><!--cacher et faire apparaitre toutes les 2 seconde--></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projets</h2>
+      <ul>
+        <li><b>Portfolio personnel</b> – Site en HTML/CSS + Bootstrap</li>
+        <li><b>Eat eco</b> – Html/CSS + Boostrap</li>
+      </ul>
+    </section>
+
+    <footer>
+      &copy; 2025 David - CV en ligne
     </footer>
-    </body>
+  </div>
+</body>
 </html>
