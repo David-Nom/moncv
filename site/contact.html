@@ -3,30 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script><!--Tailwind-->
       <link rel="stylesheet" href="./Contact.css"><!--Chemin direction -->
     <title>Document</title>
 </head>
-
-<body>
-
-     <form action="post" id="form"><!--formulaire de contact-->
-     <fieldset><legend>Formulaire de contact</legend> <h2></h2><!--fielset= encadrement et legend = titre au milieux de l'encadrement-->
+  <body>     
+    <form action="post" id="form" class="m-4 p-4 "><!--formulaire de contact-->
+     <fieldset><legend class="text-xl font-bold text-center">Formulaire de contact</legend> <h2></h2><!--fielset= encadrement et legend = titre au milieux de l'encadrement-->
 <br>
 <br>  
-    <input type="text" name="nom" placeholder="Entrez votre nom">  <!--placeholder : texte d’exemple affiché quand le champ est vide.--> <!--name= permet de relier a une class-->
+    <input type="text" name="nom" placeholder="Entrez votre nom" required>  <!--placeholder : texte d’exemple affiché quand le champ est vide.--> <!--name= permet de relier a une class-->
 <br> 
 <br> 
 <br>    
-    <input type="text" name="prenom" placeholder="Entrez votre prenom">  <!--placeholder : texte d’exemple affiché quand le champ est vide.--> <!--name= permet de relier a une class-->
+    <input type="text" name="prenom" placeholder="Entrez votre prenom" required>  <!--placeholder : texte d’exemple affiché quand le champ est vide.--> <!--name= permet de relier a une class-->
  <br> 
 <br> 
 <br>    
-    <input type="email" name="email" id="email" step="1" required> <label for="email">Email </label> <!--email-->
+    <input type="email" name="email" id="email" step="1" required> <!--email-->
 <br>
 <br> 
 <br> 
               <!--checkbox = plussieur choix possible--> <!--value= valeur -->
-<br><fieldset><legend>Choix</legend>
+<br><fieldset><legend class="">Choix</legend>
                       <input id="Javascript" type="radio"><label for="Javascript">Javascript</label>  <!---->
 <br>
                         <input id="PHP" type="radio"><label for="PHP">PHP</label>  
@@ -46,12 +45,13 @@
             </select> 
     </fieldset>
 <br>
-<textarea id="texte" name="texte" rows="6" cols="50" placeholder="message ici..."></textarea><!--consigne 200 mots-->
+<textarea id="texte" name="texte" rows="6" cols="50" placeholder="message ici..." class="items-center"></textarea><!--tailwind-->
 <br>
 <br>
-  <input type="submit"/><!--Bouton envoyer-->
+  <input type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded-full shadow-md transition hover:scale-105 my-4"/><!--Bouton envoyer-->
 <br>
 <br>
     </form>
+    <script src="https://cdn.tailwindcss.com"></script>
 </body>
 </html>

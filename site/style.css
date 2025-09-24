@@ -3,7 +3,11 @@
    CV – style dégradé transparent
    =========== */
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+* { 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+}
  body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -51,7 +55,7 @@
 
     ul {
       list-style: none;
-      padding: 0;
+            padding: 0;
     }
 
     ul li {
